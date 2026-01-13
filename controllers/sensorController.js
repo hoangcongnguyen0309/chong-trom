@@ -7,8 +7,7 @@ function initSensorListener(io) {
   });
 }
 
-
-// ✅ Ghi trạng thái bật/tắt báo động
+// Ghi trạng thái bật/tắt báo động
 function updateSystemEnabled(req, res) {
   const { systemEnabled } = req.body;
   if (systemEnabled !== 0 && systemEnabled !== 1) {
