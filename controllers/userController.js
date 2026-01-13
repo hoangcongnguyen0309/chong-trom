@@ -22,7 +22,7 @@ async function handleLogin(req, res) {
   }
 }
 
-// ✅ Cập nhật người dùng
+// Cập nhật người dùng
 async function handleUpdateUser(req, res) {
   const { id } = req.params; 
   const updates = req.body;  
